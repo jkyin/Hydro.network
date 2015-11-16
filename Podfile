@@ -10,6 +10,16 @@ pod 'SAMTextField'
 pod 'GVUserDefaults'
 pod 'Shimmer'
 pod 'SVProgressHUD'
+
+# Vendor
+pod 'Fabric'
+pod 'Crashlytics'
+end
+
+target 'Today' do
+# Vendor
+pod 'Fabric'
+pod 'Crashlytics'
 end
 
 target 'HydroTests' do
